@@ -1,18 +1,18 @@
-# @knowledge-market/agentkit-plugin
+# @knowmint/agentkit-plugin
 
 Coinbase AgentKit ActionProvider for [KnowMint](https://knowmint.shop) — lets AgentKit agents discover and purchase human tacit knowledge on-chain.
 
 ## Install
 
 ```bash
-npm install @knowledge-market/agentkit-plugin
+npm install @knowmint/agentkit-plugin
 ```
 
 ## Quick Start
 
 ```typescript
 import { AgentKit } from "@coinbase/agentkit";
-import { knowmintProvider } from "@knowledge-market/agentkit-plugin";
+import { knowmintProvider } from "@knowmint/agentkit-plugin";
 
 const agentkit = new AgentKit({
   actionProviders: [
